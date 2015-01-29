@@ -46,13 +46,11 @@
 
 <form name="f" action="users-delete.jsp">
     <fieldset>
-        <legend>Delete Form</legend>
+        <legend>Comma-separated</legend>
         <div>
         <table cellpadding="3" cellspacing="1" border="0" width="600">
         <tr class="c1">
             <td width="1%" colspan="2" nowrap>
-                User name:
-                &nbsp;
                 <textarea rows="10" cols="100" name="usernames"><%= (usernames != null ? usernames : "") %></textarea>
 	        </td>
         </tr>
