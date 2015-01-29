@@ -19,7 +19,7 @@
     if (usernames != null) {
 
         final UserDeletePlugin plugin =
-                (UserDeletePlugin) XMPPServer.getInstance().getPluginManager().getPlugin("userdelete");
+                (UserDeletePlugin) XMPPServer.getInstance().getPluginManager().getPlugin("tttalk.userdelete");
         TaskEngine.getInstance().submit(new Runnable() {
             public void run() {
                 plugin.deleteUsers(usernames);

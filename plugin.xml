@@ -16,7 +16,7 @@
     <adminconsole>
         <tab id="tab-users">
             <sidebar id="sidebar-users">
-                <item id="users-delete" name="Users Delete"
+                <item id="users-delete" name="TTTalk Users Delete"
                     url="users-delete.jsp"
                     description="Quickly delete users and their rosters" />
             </sidebar>
