@@ -5,7 +5,7 @@
 -->
 <plugin>
     <class>org.tttalk.openfire.plugin.UserDeletePlugin</class>
-    <name>User Delete</name>
+    <name>TTTalk User Delete</name>
     <description>Delete users and rosters.</description>
     <author>tttalk.org</author>
     <version>1.0.0</version>
