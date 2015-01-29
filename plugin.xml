@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Plugin configuration for the broadcast plugin.
+-->
+<plugin>
+    <class>org.tttalk.openfire.plugin.UserDeletePlugin</class>
+    <name>User Delete</name>
+    <description>Delete users and rosters.</description>
+    <author>tttalk.org</author>
+    <version>1.0.0</version>
+    <date>01/29/2015</date>
+    <url>http://www.tttalk.org</url>
+    <minServerVersion>3.9.0</minServerVersion>
+
+    <adminconsole>
+        <tab id="tab-users">
+            <sidebar id="sidebar-users">
+                <item id="users-delete" name="Users Delete"
+                    url="users-delete.jsp"
+                    description="Quickly delete users and their rosters" />
+            </sidebar>
+        </tab>
+    </adminconsole>
+</plugin>
