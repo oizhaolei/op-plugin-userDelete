@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="openfire">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../work/lib/openfire.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../work/lib/openfire.jar!/" />
+    </SOURCES>
+  </library>
+</component>
